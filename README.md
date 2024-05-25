@@ -18,7 +18,7 @@ This project implements a Flask web application with SSL support and an nginx re
 
 - Python 3.x
 - `Flask` library
-- `nginx` web server
+- `nginx` reverse proxy
 
 ## Installation
 
