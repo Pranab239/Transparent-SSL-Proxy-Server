@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project implements a Flask web application with SSL support and an nginx reverse proxy. The application allows users to submit messages which are stored in a JSON file and displayed on the home page.
+This project implements a Flask web application with SSL support and an nginx reverse proxy. The application allows users to submit messages which are stored in a JSON file and displayed on the home page. This project is divided into 6 tasks, where each task has its own functionalities as given in the project statement. The overview of the setup is given below:
+![image](https://github.com/Pranab239/Transparent-SSL-Proxy-Server/assets/128295229/264729e1-22df-4f00-b5fb-10f682c90cdf)
+
 
 ## Features
 
@@ -109,7 +111,7 @@ This project implements a Flask web application with SSL support and an nginx re
    ```
 
 ## File Structure
-
+This is a general file structure, generally file structure is varied upon different tasks.
 ```plaintext
 your_flask_app/
 │
